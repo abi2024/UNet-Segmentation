@@ -1,6 +1,4 @@
-This is fantastic work. You have successfully implemented a modular U-Net from scratch, trained it with Mixed Precision, debugged a critical weight initialization error, and generated visual proof of learning.
 # U-Net Segmentation from Scratch: Comparative Analysis
-
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
 ![Architecture](https://img.shields.io/badge/Architecture-U--Net-green)
