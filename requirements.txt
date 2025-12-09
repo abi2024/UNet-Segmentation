@@ -1,0 +1,18 @@
+# Core Machine Learning Framework
+tensorflow<2.11      # Includes Keras and TF Data API
+
+# Data Processing & Math
+numpy<2.0       # Matrix operations
+scikit-learn>=1.0.0     # Useful for metrics and advanced splitting strategies
+
+# Image Processing & Visualization
+matplotlib>=3.5.0       # For plotting images and training curves
+pillow>=9.0.0           # Image handling helper (often needed by matplotlib/TF)
+
+# Configuration Management
+PyYAML>=6.0             # To read the .yaml config files we planned
+
+# Development & Notebooks
+jupyterlab>=3.0.0       # For running the notebooks
+ipykernel>=6.0.0        # To register your venv with Jupyter
+tqdm>=4.64.0            # Progress bars for long training loops

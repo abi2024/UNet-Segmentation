@@ -1,0 +1,13 @@
+experiment_name: "Exp1_MP_Tr_BCE"
+model:
+  downsample_mode: "mp"       # Options: 'mp', 'str_conv'
+  upsample_mode: "tr"         # Options: 'tr', 'ups'
+training:
+  loss: "bce"                 # Options: 'bce', 'dice'
+  learning_rate: 0.001        # We found 1e-3 worked best
+  batch_size: 32
+  epochs: 15
+  pos_weight: 3.0             # For BCE class balancing
+data:
+  path: "../data/raw/Oxford-IIT-PetDataset/"
+  img_size: [128, 128]

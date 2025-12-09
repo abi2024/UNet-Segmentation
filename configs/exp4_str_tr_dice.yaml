@@ -1,0 +1,12 @@
+experiment_name: "Exp4_StrConv_Ups_Dice"
+model:
+  downsample_mode: "str_conv"
+  upsample_mode: "ups"
+training:
+  loss: "dice"
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 15
+data:
+  path: "../data/raw/Oxford-IIT-PetDataset/"
+  img_size: [128, 128]

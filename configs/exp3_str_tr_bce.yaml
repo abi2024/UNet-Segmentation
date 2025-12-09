@@ -1,0 +1,13 @@
+experiment_name: "Exp3_StrConv_Tr_BCE"
+model:
+  downsample_mode: "str_conv"
+  upsample_mode: "tr"
+training:
+  loss: "bce"
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 15
+  pos_weight: 3.0
+data:
+  path: "../data/raw/Oxford-IIT-PetDataset/"
+  img_size: [128, 128]

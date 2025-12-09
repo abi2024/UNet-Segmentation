@@ -1,0 +1,50 @@
+# --- Python & System Junk ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+
+# --- Virtual Environments ---
+venv/
+env/
+.env
+.venv/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Project Data ---
+data/
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+
+# --- Model Weights (Too large for GitHub) ---
+*.pth
+*.pt
+*.h5
+*.ckpt
+results/*.pth
+results/*.h5
+
+# --- Training Artifacts ---
+# We usually ignore history pickles, but if they are small 
+# and you want them for the notebook to run, you can comment this out.
+# For production, we usually ignore them.
+results/*.pkl
+
+# --- IDE Settings (VS Code, PyCharm, etc) ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Exceptions (Things we explicitly WANT to keep) ---
+# Even if we ignore *.png elsewhere, we want to keep the readme assets
+!readme_comparison.png
